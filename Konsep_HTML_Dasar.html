@@ -39,7 +39,7 @@
                       <h2 class="judulBab1">BAB 1 Berkenalan Dengan HTML</h2>
                    </header>
                    <!-- ------ Sub BAB-1 --------- -->
-                   <section class="subBab subBab1">
+                    <section class="subBab subBab1">
                       <h3 class="judulSubBab judulSubBab1">Pengertian HTML</h3>
                       <p>HTML Singkatan dari Hypertext Markup Language.</p>
                       <p>Hypertext itu bermakna text yang lebih dari sekedar text. Karena dapat berfungsi sebagai penghubung ke halaman lain (link).</p>
@@ -57,8 +57,62 @@
                       <h3 class="judulSubBab judulSubBab1">Mengenal Jenis-Jenis Bahasa Pemrograman Web</h3>
                       <p>Ada 5 skill yang harus dikuasai untuk dapat membuat sebuah website yang utuh dan dinamis yaitu, HTML,CSS,JS,PHP,MySQL.</p>
                       <p>HTML untuk membuat struk halaman website, CSS untuk mengatur tampilan, JS untuk mengatur interaksi, PHP untuk mengelola inputan, MySQL untuk database.</p>
-                   </section>
-               </section>
+                    </section>
+                </section>
+              
+                <!-- ========== BAB 4 ============ -->
+                <section id="bab4" class="bab">
+                    <header>
+                    <h2 id="judulBab4" class="judulBab">BAB 4 Struktur Dasar HTML</h2>
+                    </header>
+            
+                    <!-- ------ SubBAB4 --------- -->
+                    <section class="subBab subBab4">
+                        <h3 class="judulSubBab judulSubBab4">Pengertian Tag, Atribut dan Element HTML </h3>
+                
+                        <!-- ------ Sub SubBAB4 --------- -->
+                        <section class="subSubBab subSubBab4">
+                            <h4 class="judulSubSubBab judulSubSubBab4">Pengertian Tag</h4>
+                            <p>Tag itu adalah nama singkat dari Element HTML yang menggunakan kurung sudut buka dan kurung sudut tutup.
+                            <script src="https://gist.github.com/HandsomeScript/4f9a2123ef6beecebb871e3dff676e4c.js"></script>
+                            </p>
+                            <p>Secara teknis, fungsi tag HTML itu untuk menginformasikan kepada web browser tentang penyajian dalam bentuk apa data ditampilkan</p>
+                            
+                            <h4 class="judulSubSubBab judulSubSubBab4">Pengertian Atribut</h4>
+                            <p>Atribut itu adalah informasi tambahan yang ditempatkan pada tag pembuka dan biasanya berpasangan antara key dan value.</p>
+                            <p>Pada penulisan bagian key nya, bisa menggunakan tanda kutip satu/dua dan juga bisa tanpa tanda kutip. Aturan ini bersifat opsional namun disarankan tetap gunakan tanda kutip.
+                            <script src="https://gist.github.com/HandsomeScript/8ddb2e42494d609cf8d28cb8ddbb84ee.js"></script>
+                            </p>
+                            
+                            <h4 class="judulSubSubBab judulSubSubBab4">Element HTML</h4>
+                            <p>Istilah element pada HTML adalah merupakan satu kesatuan antara tag, atribut dan konten element.</p>
+                            <p>Konten element sendiri juga bisa berupa element lain. Dalam hal ini disebut sebagai element HTML bersarang</p>
+                        </section>
+                        <!-- --------------------------- -->
+
+                        <h3 class="judulSubBab judulsubBab4">Penjelasan Detail Struktur Dasar Halaman HTML</h3>
+                        <p>Perhatikan Kode HTML berikut.
+                        <script src="https://gist.github.com/HandsomeScript/6daf53f5b3e4d9a6a5975032af995749.js"></script>
+                        </p>
+                        
+                        <!-- ------ Sub SubBAB4 --------- -->
+                        <section class="subSubBab subSubBab4">
+                            <h4 class="judulSubSubBab judulSubSubBab4">Document Type Declaration (DTD)</h4>
+                            <p>DTD ini berfungsi untuk memberikan informasi tentang aturan penulisan dalam HTML.</p>
+                            <p>DTD berasal dari SGML yang merupakan induk bahasa markup.</p>
+                            <p>Penulisan DTD pada tiap halaman HTML sebenarnya opsional saja, tapi karena Web Browser sebagai tempat eksekusinya file HTML itu membutuhkan keterangan type document, maka DTD ini menjadi wajib untuk dituliskan. Jika diabaikan, maka halaman HTML dianggab sebagai halaman web yang tidak sesuai standard atau istilahnya masuk dalam <em>quirk mode</em>. Informasi tentang mode ini akan jelas terlihat jika menggunakan web browser Mozila Firefox.</p>
+                            <p>Sebagai lembaga Pengembang HTML, WHATWG tetap membuatkan DTD pada HTML5 dengan penulisan yang singkat, yaitu &lt!DOCTYPE html&gt . Aturan penulisannya juga boleh menggunakan huruf kecil.</p>
+                            <p>Untuk penempatannya harus berada di baris paling atas. Tidak boleh diawali oleh karakter apapun termasuk spasi.</p>
+                            
+                            <h4 class="judulSubSubBab judulSubSubBab4">Tag &lthtml&gt</h4>
+                            <p>Tag ini disebut sebagai tag <em>root</em>, karena tag ini menampung semua tag-tag HTML yang ada.</p>
+                            <p>Pada tag root ini juga kita bisa menambahkan atribut "lang", yang akan menjelaskan bahwa isi website kita menggunakan bahasa tertentu. Jika atribut berisi "en" berarti konten website menggunakan bahasa inggris. Jika bahasa indonesia, atributnya kita isi dengan "id". Untuk lengkap daftarnya ada di <a href="https://en.m.wikipedia.org/wiki/List_of_ISO_639-1_codes">wikipedia</a>.</p>
+                            
+                            <h4 class="judulSubSubBab judulSubSubBab4">Tag &lthead&gt</h4>
+                            <p>Tag ini berfungsi untuk menampung element-element HTML yang digunakan untuk memberikan informasi tambahan kepada web browser tentang halaman yang sedang ditampilkan, seperti tag &ltmeta&gt, &lttitle&gt, dan &ltlink&gt.</p>                
+                        </section>
+                    </section>
+                </section>
             </main>
         </div>        
     </body>
